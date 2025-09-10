@@ -10,16 +10,17 @@ from prompt_generation.generate import generate_initial_prompt
 def new_strategy(path_to_json: str) -> Strategy:
     """Validates a new strategy from provided JSON, raises ValidationError if invalid JSON | OSError if path not found"""
     
-    with open(path_to_json) as f:
-        data = f.read()
-
+    data = ""
     
     try:
+
+        with open(path_to_json) as f:
+            data = f.read()
         strategy = Strategy.model_validate_json(data)
         return strategy
     
     except ValidationError as v:
-        print(f"Unable to validate JSON against Strategy Model \n\n {json.dumps(data, indent=4)} \n\n")
+        print(f"Unable to validate JSON against Strategy model \n\n {json.dumps(data, indent=4)} \n\n")
         print(f"Schema: \n\n {Strategy.model_json_schema()}")
         raise v
     

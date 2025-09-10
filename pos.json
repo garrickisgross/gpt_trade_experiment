@@ -1,0 +1,15 @@
+{
+    "name": "IOBT",
+    "status": "active",
+    "qty": 13,
+    "avg_price": 1.81,
+    "stop_loss": 1.58,
+    "target": 9.00,
+    "thesis": [
+        "Positive Momentum & Technicals: IO Biotech has surged ~129% year-to-date, trading above its 50-day moving average (recent ~$1.30) amid strong upward momentum. This indicates a bullish technical setup with sustained relative strength.",
+        "Upcoming Catalyst - Phase 3 Data: The company's lead cancer vaccine (IO102-IO103, “Cylembio”) is in a pivotal Phase 3 trial for advanced melanoma, with primary endpoint data expected in Q3 2025. Positive Phase 1/2 results (and an FDA Breakthrough Therapy designation for the Keytruda combo) underscore its potential. A successful Phase 3 readout could be a major upside catalyst.",
+        "Recent Achievements: IO Biotech was recognized as one of Fast Company's “Most Innovative Companies of 2025”, reflecting its growing industry visibility. It has also completed enrollment in a Phase 2 trial and presented new preclinical data this year - progress that signals clinical and pipeline advancement.",
+        "Analyst Confidence: Wall Street analysts are bullish - consensus rating “Buy” - with an average 12-month price target of about $9 (low $4, high $14). This implies ~4x upside from current levels as the market prices in the Phase 3 success probability. We use a $9 target, aligning with consensus, while managing risk via a 12% stop ($1.58)."
+    ],
+    "strategy_name": "midcap_strategy"
+}
