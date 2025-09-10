@@ -1,0 +1,15 @@
+{
+    "name": "midcap_strategy",
+    "goal": "maximize alpha",
+    "capital": 100.00,
+    "universe": "Easily tradible (Preferably U.S. micro-caps, however that is not a hard rule.) micro-caps (<$300M market cap) unless told otherwise. Consider liquidity (avg volume, spread, slippage). You can use any sector you prefer. Some holdings may already exceed the 300M cap, but you can not add additional shares; you can only sell or hold position.",
+    "risk_params": {
+        "general": "Stop-Loss and exit targets required, set trailing stops as needed daily for positions",
+        "max_per_position": 0.25,
+        "max_positions": 5,
+        "stop_loss_pct": 0.12,
+        "trailing_stops_pct": 0.1
+    },
+    
+    "benchmarks": ["SPY"]
+}
