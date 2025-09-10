@@ -51,8 +51,6 @@ def strategy_flow(path: str) -> None:
 
     curr_strats = [i[0] for i in curr_strats]
 
-    print(curr_strats)
-
     # No need to run duplicate strategies, unless specified by the user
     if strategy.name in curr_strats:
         
