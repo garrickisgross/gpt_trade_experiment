@@ -78,22 +78,5 @@ def create_new_position_flow(json_path: str) -> None:
 
     
 
-
-    
-        
-        
-
-
-
-        
-
-
-
-
-
-
-
-    
-
 def update_position(json_path: str) -> None:
     pass
