@@ -34,7 +34,7 @@ def main(args: argparse.Namespace):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(prog="GPT Stock Trader",
-                            description="A toolkit to experiment with GPT driven trades",
+                                     description="A toolkit to experiment with GPT driven trades",
                             ) 
     
     # Parse Strategy Argument
